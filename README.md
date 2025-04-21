@@ -47,4 +47,4 @@ Em breve:
 
 ## 💬 Contato
 
-Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/mpalves) para trocar ideias sobre finanças quantitativas, dados e desenvolvimento de estratégias.
+Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/mp-alves) para trocar ideias sobre finanças quantitativas, dados e desenvolvimento de estratégias.
