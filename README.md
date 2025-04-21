@@ -1,1 +1,1 @@
-# Finan-as
+# Finance
