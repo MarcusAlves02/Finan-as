@@ -10,14 +10,13 @@ Realizar backtesting no mercado de ações brasileiro de estratégias consagrada
 
 ## ✅ Estratégias Implementadas
 
-- [x] **Fórmula Mágica de Joel Greenblatt**  
+- [x] **Fórmula Mágica de Joel Greenblatt**
+- [x] **F-Score de Piotroski**
   Estratégia baseada no retorno sobre o capital investido (ROIC) e no lucro sobre preço (Earnings Yield).
 
 Em breve:
-- [ ] F-Score de Piotroski  
 - [ ] Net-Net de Benjamin Graham  
 - [ ] Value Composite  
-- [ ] Estratégia baseada em Dividend Yield
 
 ---
 
