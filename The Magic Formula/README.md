@@ -1,40 +1,40 @@
 ﻿# 📊 Magic Formula Backtesting - B3 (2019–2025)
 
-Este projeto aplica a **Fórmula Mágica de Joel Greenblatt** ao mercado brasileiro, utilizando dados reais de empresas listadas na **B3** entre 2019 e 2025 (YTD). O objetivo é avaliar o desempenho da estratégia com diferentes tamanhos de portfólio, comparando os resultados com o índice **IBOVESPA**.
+This project applies **Joel Greenblatt's Magic Formula** to the Brazilian market, using real data from companies listed on **B3** between 2019 and 2025 (YTD). The goal is to evaluate the performance of the strategy with different portfolio sizes, comparing the results to the **IBOVESPA** index.
 
-## 🧠 Sobre a Estratégia
+## 🧠 About the Strategy
 
-A Fórmula Mágica busca identificar ações "baratas e boas" com base em dois indicadores fundamentais:
+The Magic Formula aims to identify "good and cheap" stocks based on two fundamental indicators:
 
-- **ROIC (Retorno sobre o Capital Investido)** – mede a qualidade da empresa.
-- **Earnings Yield (inverso do EV/EBIT)** – mede o quanto a ação está "barata".
+- **ROIC (Return on Invested Capital)** – measures the quality of the company.
+- **Earnings Yield (inverse of EV/EBIT)** – measures how "cheap" the stock is.
 
-As empresas são ranqueadas com base em uma combinação desses dois fatores, e as mais bem colocadas são selecionadas para compor os portfólios.
+Companies are ranked based on a combination of these two factors, and the highest-ranked are selected to build the portfolios.
 
-## 🔬 O que foi testado?
+## 🔬 What Was Tested?
 
-Foram simuladas carteiras com diferentes quantidades de ativos:
+Portfolios were simulated with different numbers of assets:
 
-- 1 ativo
-- 5 ativos
-- 20 ativos
-- 50 ativos
-- 90 ativos
+- 1 asset  
+- 5 assets  
+- 20 assets  
+- 50 assets  
+- 90 assets  
 
-Os portfólios foram rebalanceados com base na Fórmula Mágica e comparados ao desempenho do índice IBOV.
+Portfolios were rebalanced using the Magic Formula and compared to the performance of the IBOV index.
 
-## 📈 Principais Resultados
+## 📈 Key Results
 
-- A carteira com **1 ativo** foi a mais rentável, com retorno acumulado de **5,05x** (aprox. **30% a.a.**).
-- A versão com **5 ativos** também teve ótimo desempenho: **3,74x**.
-- O **IBOVESPA**, usado como benchmark, entregou **1,59x** no mesmo período.
+- The portfolio with **1 asset** was the most profitable, with a cumulative return of **5.05x** (~**30% annually**).
+- The **5-asset** version also performed well: **3.74x**.
+- The **IBOVESPA**, used as a benchmark, returned **1.59x** over the same period.
 
-Apesar da ausência de métricas de risco, o padrão é claro: quanto menor a diversificação, maior o potencial de retorno — e maior o desvio em relação à média de mercado.
+Although no risk metrics were included, the pattern is clear: the lower the diversification, the higher the potential return — and the greater the deviation from the market average.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-- Python 3.x
-- Pandas
-- Matplotlib
-- yFinance / dados fundamentalistas locais (caso aplicável)
+- Python 3.x  
+- Pandas  
+- Matplotlib  
+- yFinance / local fundamental data (if applicable)  
 - Jupyter Notebook
