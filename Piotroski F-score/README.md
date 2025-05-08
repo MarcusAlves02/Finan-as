@@ -1,6 +1,6 @@
 ﻿# 📊 Piotroski F-Score Backtesting – B3 (2019–2025)
 
-This project applies the **Piotroski F-Score** strategy to the Brazilian stock market (**B3**), evaluating annual investment portfolios from **2019 to 2025**. The goal is to assess how portfolios composed of companies with different F-Score levels perform when compared to the **IBOVESPA** index.
+This project applies the **Piotroski F-Score** strategy to the Brazilian stock market, evaluating annual investment portfolios from **2019 to 2025**. The goal is to assess how portfolios composed of companies with different F-Score levels perform when compared to the **IBOVESPA** index.
 
 ---
 
@@ -26,8 +26,10 @@ These portfolios were benchmarked against the **IBOVESPA** index performance.
 
 ## 📈 Key Findings
 
-- Portfolios based on **F-Scores 7 and 8** consistently outperformed the IBOV.
-- Low-score portfolios underperformed and often destroyed shareholder value.
+- F-Score 8 had the highest return, multiplying capital by **3.24x**.
+- F-Scores 6–8 consistently outperformed the IBOVESPA.
+- Low F-Scores (2–4) significantly underperformed.
+- F-Score 9 showed weak performance (**0.70x**), possibly due to low diversification in selected assets.
 
 ---
 
