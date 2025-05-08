@@ -26,7 +26,7 @@ These portfolios were benchmarked against the **IBOVESPA** index performance.
 
 ## 📈 Key Findings
 
-- Portfolios based on **F-Scores 8 and 9** consistently outperformed the IBOV.
+- Portfolios based on **F-Scores 7 and 8** consistently outperformed the IBOV.
 - Low-score portfolios (**F-Scores 0 to 3**) underperformed and often destroyed shareholder value.
 - The **COVID-19 crisis (2020)** was highlighted to visualize how different scoring strategies reacted under stress.
 
